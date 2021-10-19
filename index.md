@@ -17,9 +17,9 @@ Underviser: Claus Bove, clbo@kea.dk <br>
 ||| [Git branches, merge og merge conflicts](4.md)|
 ||| [Projektsamarbejde med git og github](5.md)|
 ||| [Obligatorisk opgave (git & github)](6.md)|
-||| [Deployment med Github, Heroku og Dreamhost](7.md)|
+||| [Deployment med Github, Heroku ](7.md)|
+||| | 
 ||| [Deployment med Github, Heroku og Dreamhost](8.md)|
-||| [Processer og tråde](9.md)|
 ||| [Client / Server Arkitektur](10.md) |
 ||| [Miniprojekt](11.md)|
 ||| [Miniprojekt](12.md)|
