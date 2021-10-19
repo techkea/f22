@@ -19,7 +19,7 @@ Underviser: Claus Bove, clbo@kea.dk <br>
 ||| [Obligatorisk opgave (git & github)](6.md)|
 ||| [Deployment med Github, Heroku ](7.md)|
 ||| | 
-||| [Deployment med Github, Heroku og Dreamhost](8.md)|
+||| [Deployment med Github, Heroku og Dreamhost](9.md)|
 ||| [Client / Server Arkitektur](10.md) |
 ||| [Miniprojekt](11.md)|
 ||| [Miniprojekt](12.md)|
