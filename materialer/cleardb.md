@@ -45,7 +45,7 @@ Kopier url´en der starter med mysql://
 * ?reconnect=true er et parameter med info.        
 
 
-For at få din applikation til at virke ordeentligt på er det nøsvendingt at tilføje et parameter. Så efter (?reconnect=true) skal du tilføje: **&autoReconnect=true**
+For at få din applikation til at virke ordentligt på Heroku er det nøsvendingt at tilføje et parameter. Efter (?reconnect=true) skal du tilføje: **&autoReconnect=true**
 
 Den fulde url kommer derfor til at se sådan ud:
 ````
