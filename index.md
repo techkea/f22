@@ -22,7 +22,7 @@ Underviser: Claus Bove, clbo@kea.dk <br>
 ||| [Deployment med Github, Heroku og Dreamhost](9.md)|
 ||| [Client / Server Arkitektur](10.md) |
 ||| [Miniprojekt](11.md)|
-||| [Miniprojekt](12.md)|
+||| [Miniprojekt](11.md)|
 ||| [Repetition og "Klar til eksamensprojektet"](13.md)|
 ||| [Eksamensprojekt](14.md)|
 ||| [Eksamensprojekt](15.md)|
