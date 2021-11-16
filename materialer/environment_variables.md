@@ -13,23 +13,23 @@ Når i skriver brugernavn og password ind i application.properties filen bliver 
 Problemet med denne metode er at alle i hele verden vil kunne se jeres brugernavn og password (da i sikkert bruger et public repository).    
 
 ### Private repository
-En løsning er at gøre jeres github repository "private", men det kan give problemer i forhold til colaborators og andre der skal se jeres kode (din lære f.eks).     
+En løsning er at gøre jeres github repository "private", men det kan give problemer i forhold til "colaborators" og andre der skal se jeres kode (feks. din lære).     
 
 ### Environment variabler (miljøvariabler)
-En anden mere holdbar løsning er at slette indholdet i application.properties og så istedet skrive username og password et andet sted end i selve spring boot projektet. Dette kan gøre i din computers miljøvariabler (og på computeren hos Heroku´s miljøvariabler)
+En anden mere holdbar løsning er at slette indholdet i application.properties og så istedet skrive username og password et andet sted end i selve spring boot projektet. Dette kan gøres i din computers miljøvariabler (og i miiljøvariablerne på computeren hos Heroku).
 
 Det følgende er en beskrivelse af hvordan du gør dette. 
 
 ## Lokalt på din egen computer
 
-Åben din Spring Boot Web App i Intellij.  Slet alt indhold i din application.properties fil. klik herefter på:
+Åben din Spring Boot Web App i Intellij. Slet alt indhold i din application.properties fil. klik herefter på:
 
 ````
 	Run -> Edit configurations -> Environment -> Environment Variables
 ```` 
 Dette åbner en Gui som denne.    
 
-![](materialer/env_1.png)
+![](img/env_1.png)
 
 ````
 	 try (InputStream input = new FileInputStream("src/main/resources/application.properties")) {
