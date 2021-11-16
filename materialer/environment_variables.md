@@ -29,7 +29,7 @@ Det følgende er en beskrivelse af hvordan du gør dette.
 ```` 
 Dette åbner en Gui som denne.    
 
-![](img/env_1.png)
+![](../img/env_1.png)
 
 ````
 	 try (InputStream input = new FileInputStream("src/main/resources/application.properties")) {
