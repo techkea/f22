@@ -66,16 +66,19 @@ Du kan se de 2 forskellige versioner af DBManager.java her:
 * [Ny Version](https://github.com/techkea/movie-project/blob/master/src/main/java/dk/clbo/repository/dbconnect/DBManager.java)
 
 
-Den fulde url kommer derfor til at se sådan ud:
-````
-	mysql://b270aec8833o9i:f6015344@eu-cdbr-west-01.cleardb.com/heroku_cf41053fe067y7r?reconnect=true&autoReconnect=true 
-````
+## Environment Variables på Heroku
 
-#### application.properties 
-application.properties for denne database vil derfor se således ud:
+På Heroku under din apps adminpanel klik på:
 
-```` 
-	user=b270aec8833o9i
-	password=f6015344
-	url=jdbc:mysql://eu-cdbr-west-01.cleardb.com/heroku_cf41053fe067y7r?reconnect=true&autoReconnect=true
-```` 
+````
+	Settings -> Reveal Config Vars
+````
+Dette åbner dette vindue:
+
+![](../img/herokuconfigvars.png)
+
+Udfyld felterne på samme måde som på din lokale computer.
+
+Thats it!
+
+
