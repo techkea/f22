@@ -31,6 +31,13 @@ Dette åbner en Gui som denne.
 
 ![](../img/env_1.png)
 
+Indtast de informationer vedrørende din database som du indtil nu har haft i din application.properties fil.     
+
+### Ændring af DBManager fil
+I din DBManager.java fil skal du ændre følgende kode.
+
+Denne kodestump skal du slette:
+
 ````
 	 try (InputStream input = new FileInputStream("src/main/resources/application.properties")) {
             Properties properties = new Properties();
@@ -43,7 +50,7 @@ Dette åbner en Gui som denne.
         }
 ````
 
-Skal ændres til dette:    
+Og herefter ændre det til dette:    
 
 
 ````
@@ -52,6 +59,11 @@ Skal ændres til dette:
         password = System.getenv("mp_password"); 
 
 ````
+
+Du kan se de 2 forskellige versioner af DBManager.java her:
+
+* [Gammel version](https://github.com/techkea/movie-project/blob/appplication_propeties_version/src/main/java/dk/clbo/repository/dbconnect/DBManager.java)
+* [Ny Version](https://github.com/techkea/movie-project/blob/master/src/main/java/dk/clbo/repository/dbconnect/DBManager.java)
 
 
 Den fulde url kommer derfor til at se sådan ud:
