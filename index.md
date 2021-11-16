@@ -23,10 +23,10 @@ Underviser: Claus Bove, clbo@kea.dk <br>
 ||| [Client / Server Arkitektur](10.md) |
 ||| [Miniprojekt](11.md)|
 ||| [Miniprojekt](11.md)|
-||| [Repetition og "Klar til eksamensprojektet"](13.md)|
-||| [Eksamensprojekt](14.md)|
-||| [Eksamensprojekt](15.md)|
-||| [Eksamensprojekt](16.md)|
+||| [Repetition og "Klar til eksamensprojektet"](12.md)|
+||| [Eksamensprojekt](13-16.md)|
+||| [Eksamensprojekt](13-16.md)|
+||| [Eksamensprojekt](13-16.md)|
 
 <br><br>
 <div style='text-align:right'><i><small>* undervisning på Teams</small></i></div>
