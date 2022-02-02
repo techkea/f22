@@ -26,3 +26,4 @@
 24. paste ex1.acc ex1.dat > ex1.tot
 25. awk '{print $1, $5}' ex1.tot > ex1.res
 26. sort -k 2 ex1.res > t.res
+test
