@@ -15,6 +15,8 @@
 
 ![](../img/git_tavle.JPG)
 
+<!--
+
 ## Branching and merging
 - git branch: shows branches
 - git branch \<name\>: creates a branch
@@ -40,4 +42,4 @@
 
 
 
-
+-->
