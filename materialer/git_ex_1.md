@@ -77,7 +77,7 @@ Brug nu de kommandoer vi lige har været igennem.
 
 Og tegn en "commit graf" med id´er og commit messages for dit projekt (eksempel herunder).
 
-![](img/git_commit_graph.jpg)
+![](../img/git_commit_graph.jpg)
 
 Meningen med denne øvelse er at du får leget med git, og får lavet en masse commits.
 
