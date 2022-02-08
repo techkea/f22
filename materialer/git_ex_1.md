@@ -75,7 +75,9 @@ Brug nu de kommandoer vi lige har været igennem.
 * git status
 * git log ---all ---graph ---decorate
 
-Og tegn en "commit graf" (O <-- O <-- O) med id´er og commit messages for dit projekt.
+Og tegn en "commit graf" med id´er og commit messages for dit projekt (eksempel herunder).
+
+![](img/git_commit_graph.jpg)
 
 Meningen med denne øvelse er at du får leget med git, og får lavet en masse commits.
 
@@ -84,8 +86,22 @@ Brug nu kommandoen ```` git checkout <commitid> ```` for at gå frem og tilbage 
 
 Kig på koden i intelliJ og åben filen i browseren og se hvad der sker når du hopper frem og tilbage i historikken.  
 
+## Del 3
+Opret et Spring Boot projekt som i har gjort i programmeringsundervisningen.    
+Brug ```` git init ```` for at initialisere det som et git repository.    
+Brug de samme kommandoer som i øvelse 1 på dette projekt:
 
+* Git init (for at oprette et ny git repository)
+* Git add (for at tilføje filer til dit "staging area")
+* git Commit (for at lave et "snapshot")
+* git status
+* git log ---all ---graph ---decorate
 
+Til dette projekt skal du også tegne en "Commit Graph":
+
+![](img/git_commit_graph.jpg)
+
+Og du skal bruge commandoen ```` checkout ```` til at gå frem og tilbage i dine commits.
 
 
 
