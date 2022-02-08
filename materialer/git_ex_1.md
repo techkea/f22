@@ -99,9 +99,10 @@ Brug de samme kommandoer som i øvelse 1 på dette projekt:
 
 Til dette projekt skal du også tegne en "Commit Graph":
 
-![](img/git_commit_graph.jpg)
+![](../img/git_commit_graph.jpg)
 
 Og du skal bruge commandoen ```` checkout ```` til at gå frem og tilbage i dine commits.
 
 
-
+## Del 4
+**Gentag alt dette 1000 gange inden vi mødes igen.**
