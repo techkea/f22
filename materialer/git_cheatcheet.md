@@ -28,7 +28,6 @@
 	- [example (simple)](materialer/gitignore_simple.txt)
 	- [example (IntelliJ)](materialer/gitignore.txt)
 
-<!--
 
 ## Remotes (Github)
 - git remote: list remotes
@@ -42,5 +41,3 @@
 - git branch -r: list remote branches
 
 
-
--->
