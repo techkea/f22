@@ -16,4 +16,31 @@ Nu skal i bruge Heroku CLI metoden til at deploye jeres applikation.
 
 ![](../img/deploy_heroku.png)
 
+Metoden er "straight forward", så bare følg beskrivelserne. 
+
+
+I praksis kommer i til at forbinde jeres lokale repository med både github og med heroku.
+
+I vil kunne se det ved at skrive:
+
+````
+	$ git remote -v
+	heroku	https://git.heroku.com/clbodat21bherokudirrect.git (fetch)
+	heroku	https://git.heroku.com/clbodat21bherokudirrect.git (push)
+	origin	https://github.com/techkea/webshopdat21b.git (fetch)
+	origin	https://github.com/techkea/webshopdat21b.git (push)
+
+````
+Og hvis i skal pushe til github gør i som normalt:
+
+````
+	$ git push origin master
+````
+
+Hvis i skal pushe det til Heroku:
+
+````
+	$ git push heroku master
+````
+
 
