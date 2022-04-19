@@ -11,3 +11,9 @@ Det følgende er en beskrivelse af hvordan i gør det.
 Tidligere har i brugt "github deployment metoden" hvor i pusher jeres kode til github og så forbinder dette repository med Heroku.
 
 ![](../img/deploy_github.png)
+
+Nu skal i bruge Heroku CLI metoden til at deploye jeres applikation. 
+
+![](../img/deploy_heroku.png)
+
+
